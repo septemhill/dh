@@ -1,0 +1,1 @@
+CREATE TABLE short_url_table (id SERIAL PRIMARY KEY, key VARCHAR(10), url VARCHAR(512), expired timestamp);
